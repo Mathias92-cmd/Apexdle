@@ -1,7 +1,7 @@
 # ApexDle
 
-![ApexDle Logo](https://upload.wikimedia.org/wikipedia/commons/8/8c/Apex_Legends_Logo.png)  
-_ApexDle_ est un jeu inspiré de **Wordle**, où les joueurs doivent deviner le personnage d'Apex Legends à partir d'indices. Le jeu vous permet de découvrir quel personnage vous devez deviner en utilisant des indices de couleur, de type et de catégorie.
+<img src="https://www.freepnglogos.com/uploads/apex-legends-logo-png/apex-legends-transparent-picture-20.png" alt="ApexDle Logo" width="150"/>
+ApexDle est un jeu inspiré de Wordle, où les joueurs doivent deviner le personnage d'Apex Legends à partir d'indices. Le jeu vous permet de découvrir quel personnage vous devez deviner en utilisant des indices de couleur, de type et de catégorie.
 
 ---
 
