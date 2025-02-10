@@ -1,59 +1,55 @@
-# Apexdle
+# ApexDle
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.6.
+![ApexDle Logo](https://upload.wikimedia.org/wikipedia/commons/8/8c/Apex_Legends_Logo.png)  
+_ApexDle_ est un jeu inspiré de **Wordle**, où les joueurs doivent deviner le personnage d'Apex Legends à partir d'indices. Le jeu vous permet de découvrir quel personnage vous devez deviner en utilisant des indices de couleur, de type et de catégorie.
 
-## Development server
+---
 
-To start a local development server, run:
+## 🎮 Règles du jeu
 
-```bash
-ng serve
-```
+### But du jeu
+Le but du jeu est de deviner **le personnage d'Apex Legends** choisi en un nombre limité de tentatives. À chaque tentative, un indice est donné pour vous aider à affiner votre choix.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Comment jouer
+1. **Entrée** : Vous devez entrer le nom du personnage que vous pensez être le bon.
+2. **Indices** : Après chaque entrée, un **indice visuel** apparaîtra.
+  - **🔴 Rouge** : L'élément du personnage est incorrect.
+  - **🟢 Vert** : L'élément du personnage est correct.
+  
 
-## Code scaffolding
+### Exemple de jeu
+1. **Première tentative** : Vous devinez "Wraith".
+2. **Indice** : Un indice vous montre des cases en rouge, signifiant que "Wraith" n'est pas correct.
+3. Continuez à essayer jusqu'à deviner le bon personnage !
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+---
 
-```bash
-ng generate component component-name
-```
+## 🛠️ Technologies utilisées
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+ApexDle utilise plusieurs technologies pour rendre le jeu fonctionnel et agréable à jouer.
 
-```bash
-ng generate --help
-```
+- **HTML** : Pour structurer le contenu du jeu.
+- **CSS** : Pour la mise en forme et l'interface utilisateur. Le flou d'arrière-plan et les couleurs dynamiques créent une expérience immersive.
+- **JavaScript** : Pour la logique du jeu, la gestion des entrées et la vérification des réponses.
+- **Angular** : Pour la création de composants réutilisables et la gestion de l'état de l'application.
+---
 
-## Building
+## 🚀 Installation
 
-To build the project run:
+### Prérequis
+- Un navigateur moderne (Chrome, Firefox, Safari, etc.).
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Instructions
+1. Clonez le dépôt GitHub du projet :
+   ```bash
+   git clone https://github.com/ton-utilisateur/apexdle.git
+    ```
+2. Faite un npm install pour installer les dépendances
+    ```bash
+    npm install
+    ```
+3. Lancez le serveur de développement :
+    ```bash
+    ng serve
+    ```
+   
