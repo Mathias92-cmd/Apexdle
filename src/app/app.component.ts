@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { LegendsComponent } from './components/legends/legends.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  standalone: true,
+  imports: [LegendsComponent],
+  template: `<h1></h1><app-legends></app-legends>`,
+  styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-  title = 'apexdle';
-}
+export class AppComponent {}

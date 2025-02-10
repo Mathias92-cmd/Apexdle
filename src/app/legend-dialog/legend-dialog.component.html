@@ -1,0 +1,73 @@
+<!-- src/app/legend-dialog/legend-dialog.component.html -->
+<h1 mat-dialog-title>Bravo! Vous avez trouvé la légende</h1>
+<div mat-dialog-content>
+  <p><strong>Nom:</strong> {{ data.legend.name }}</p>
+  <p><strong>Rôle:</strong> {{ data.legend.role }}</p>
+  <p><strong>Passif:</strong> {{ data.legend.abilities.passive }}</p>
+  <p><strong>Tactique:</strong> {{ data.legend.abilities.tactical }}</p>
+  <p><strong>Ultime:</strong> {{ data.legend.abilities.ultimate }}</p>
+  <img [src]="data.legend.image" alt="Legend Image" style="max-width: 80%; height: auto; display: block; margin: 0 auto;" />
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Fermer</button>
+  <button mat-button (click)="rejouer()">Rejouer</button>
+</div>
+
+<style>
+  :host {
+    display: block;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+  }
+
+  h1 {
+    font-family: 'Arial', sans-serif;
+    color: #e63946; /* Apex Legends red color */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  mat-dialog-content {
+    max-height: 70vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  mat-dialog-content p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+  }
+
+  mat-dialog-content img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  mat-dialog-actions {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e63946;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button:hover {
+    background-color: #d62828;
+  }
+</style>

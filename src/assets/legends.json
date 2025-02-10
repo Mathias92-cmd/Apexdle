@@ -1,0 +1,254 @@
+[
+  {
+    "name": "Bloodhound",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Pisteur",
+      "tactical": "Œil du Père Tout-Puissant",
+      "ultimate": "Prédateur ultime"
+    },
+    "image": "assets/images/bloodhound.png"
+  },
+  {
+    "name": "Gibraltar",
+    "role": "Soutien",
+    "abilities": {
+      "passive": "Bouclier-arme",
+      "tactical": "Dôme de protection",
+      "ultimate": "Bombardement défensif"
+    },
+    "image": "assets/images/gibraltar.png"
+  },
+  {
+    "name": "Lifeline",
+    "role": "Soutien",
+    "abilities": {
+      "passive": "Soins de combat",
+      "tactical": "Drone de soins D.O.C.",
+      "ultimate": "Capsule de soutien"
+    },
+    "image": "assets/images/lifeline.png"
+  },
+  {
+    "name": "Pathfinder",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Connaissance intérieure",
+      "tactical": "Grappin",
+      "ultimate": "Tyrolienne"
+    },
+    "image": "assets/images/pathfinder.png"
+  },
+  {
+    "name": "Wraith",
+    "role": "Escarmouche",
+    "abilities": {
+      "passive": "Voix de l'ombre",
+      "tactical": "Dans le vide",
+      "ultimate": "Faille dimensionnelle"
+    },
+    "image": "assets/images/wraith.png"
+  },
+  {
+    "name": "Bangalore",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Course à pied",
+      "tactical": "Lance-fumigène",
+      "ultimate": "Tonerre roulant"
+    },
+    "image": "assets/images/bangalore.png"
+  },
+  {
+    "name": "Caustic",
+    "role": "Contrôle",
+    "abilities": {
+      "passive": "Vision Nox",
+      "tactical": "Piège à gaz Nox",
+      "ultimate": "Grenade à gaz Nox"
+    },
+    "image": "assets/images/caustic.png"
+  },
+  {
+    "name": "Mirage",
+    "role": "Escarmouche",
+    "abilities": {
+      "passive": "Escapade",
+      "tactical": "Leurre",
+      "ultimate": "Disparition"
+    },
+    "image": "assets/images/mirage.png"
+  },
+  {
+    "name": "Octane",
+    "role": "Escarmouche",
+    "abilities": {
+      "passive": "Remise en forme",
+      "tactical": "Stim",
+      "ultimate": "Plateforme de saut"
+    },
+    "image": "assets/images/octane.png"
+  },
+  {
+    "name": "Wattson",
+    "role": "Contrôle",
+    "abilities": {
+      "passive": "Éclat d'étincelle",
+      "tactical": "Sécurité du périmètre",
+      "ultimate": "Pylône d'interception"
+    },
+    "image": "assets/images/wattson.png"
+  },
+  {
+    "name": "Crypto",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Neurolink",
+      "tactical": "Drone de surveillance",
+      "ultimate": "Impulsion électromagnétique"
+    },
+    "image": "assets/images/crypto.png"
+  },
+  {
+    "name": "Revenant",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Infiltration",
+      "tactical": "Silence",
+      "ultimate": "Totem de la mort"
+    },
+    "image": "assets/images/revenant.png"
+  },
+  {
+    "name": "Loba",
+    "role": "Soutien",
+    "abilities": {
+      "passive": "Œil pour la qualité",
+      "tactical": "Transfert de bracelet",
+      "ultimate": "Boutique du marché noir"
+    },
+    "image": "assets/images/loba.png"
+  },
+  {
+    "name": "Rampart",
+    "role": "Contrôle",
+    "abilities": {
+      "passive": "Modifications",
+      "tactical": "Couverture amplifiée",
+      "ultimate": "Sheila"
+    },
+    "image": "assets/images/rampart.png"
+  },
+  {
+    "name": "Horizon",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Marche spatiale",
+      "tactical": "Ascenseur gravitationnel",
+      "ultimate": "Trou noir"
+    },
+    "image": "assets/images/horizon.png"
+  },
+  {
+    "name": "Fuse",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Grenadier",
+      "tactical": "Bombe à fragmentation",
+      "ultimate": "Mère des bombes"
+    },
+    "image": "assets/images/fuse.png"
+  },
+  {
+    "name": "Valkyrie",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Jets VTOL",
+      "tactical": "Essaim de missiles",
+      "ultimate": "Saut en escouade"
+    },
+    "image": "assets/images/valkyrie.png"
+  },
+  {
+    "name": "Seer",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Chercheur de cœurs",
+      "tactical": "Capteurs de focalisation",
+      "ultimate": "Exposition"
+    },
+    "image": "assets/images/seer.png"
+  },
+  {
+    "name": "Ash",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Marque des morts",
+      "tactical": "Arc de piège",
+      "ultimate": "Rupture de phase"
+    },
+    "image": "assets/images/ash.png"
+  },
+  {
+    "name": "Mad Maggie",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Saccage",
+      "tactical": "Foreuse à ondes",
+      "ultimate": "Boule de démolition"
+    },
+    "image": "assets/images/mad_maggie.png"
+  },
+  {
+    "name": "Newcastle",
+    "role": "Soutien",
+    "abilities": {
+      "passive": "Réanimation renforcée",
+      "tactical": "Bouclier mobile",
+      "ultimate": "Mur fortifié"
+    },
+    "image": "assets/images/newcastle.png"
+  },
+  {
+    "name": "Vantage",
+    "role": "Reconnaissance",
+    "abilities": {
+      "passive": "Objectif clair",
+      "tactical": "Aile bondissante",
+      "ultimate": "Marque du tireur"
+    },
+    "image": "assets/images/vantage.png"
+  },
+  {
+    "name": "Catalyst",
+    "role": "Contrôle",
+    "abilities": {
+      "passive": "Renforcement",
+      "tactical": "Champ ferrofluide",
+      "ultimate": "Voile obscur"
+    },
+    "image": "assets/images/catalyst.png"
+  },
+  {
+    "name": "Ballistic",
+    "role": "Assaut",
+    "abilities": {
+      "passive": "Bandoulière",
+      "tactical": "Tir de suppression",
+      "ultimate": "Tempête d'adrénaline"
+    },
+    "image": "assets/images/ballistic.png"
+  },
+  {
+    "name": "Conduit",
+    "role": "Soutien",
+    "abilities": {
+      "passive": "Générateur radiant",
+      "tactical": "Batterie d'énergie",
+      "ultimate": "Liaison énergétique"
+    },
+    "image": "assets/images/conduit.png"
+  }
+]
+
+

@@ -1,0 +1,46 @@
+<div>
+  <div class="prompt">
+    <h1>Apexdle</h1>
+    <h1>Guess the Legend</h1>
+    <form [formGroup]="guessForm" (ngSubmit)="onSubmit()">
+      <label for="guess">Enter the name of the legend:</label>
+      <input id="guess" formControlName="guess" />
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <div *ngIf="attempts.length > 0" class="attempts">
+    <div *ngFor="let guessedLegend of attempts" class="feedback">
+      <div class="info-box">
+        <!-- Image du personnage -->
+        <div class="info-image" [ngClass]="{ 'correct-box': guessedLegend.image === selectedLegend?.image, 'incorrect-box': guessedLegend.image !== selectedLegend?.image }">
+          <img *ngIf="guessedLegend.image" [src]="guessedLegend.image" alt="Legend Image" />
+        </div>
+
+        <!-- Rôle du personnage -->
+        <div class="info-role" [ngClass]="{ 'correct-box': guessedLegend.role === selectedLegend?.role, 'incorrect-box': guessedLegend.role !== selectedLegend?.role }">
+          <h3>Role</h3>
+          <p>{{ guessedLegend.role }}</p>
+        </div>
+
+        <!-- Passif -->
+        <div class="info-passive" [ngClass]="{ 'correct-box': guessedLegend.abilities.passive === selectedLegend?.abilities.passive, 'incorrect-box': guessedLegend.abilities.passive !== selectedLegend?.abilities.passive }">
+          <h3>Passive</h3>
+          <p>{{ guessedLegend.abilities.passive }}</p>
+        </div>
+
+        <!-- Tactique -->
+        <div class="info-tactical" [ngClass]="{ 'correct-box': guessedLegend.abilities.tactical === selectedLegend?.abilities.tactical, 'incorrect-box': guessedLegend.abilities.tactical !== selectedLegend?.abilities.tactical }">
+          <h3>Tactical</h3>
+          <p>{{ guessedLegend.abilities.tactical }}</p>
+        </div>
+
+        <!-- Ultime -->
+        <div class="info-ultimate" [ngClass]="{ 'correct-box': guessedLegend.abilities.ultimate === selectedLegend?.abilities.ultimate, 'incorrect-box': guessedLegend.abilities.ultimate !== selectedLegend?.abilities.ultimate }">
+          <h3>Ultimate</h3>
+          <p>{{ guessedLegend.abilities.ultimate }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

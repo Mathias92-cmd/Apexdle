@@ -1,0 +1,98 @@
+.prompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.prompt h1 {
+  font-family: 'Arial', sans-serif;
+  color: #ff4757;
+  margin-bottom: 15px;
+}
+
+.prompt form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.prompt label {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.prompt input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ff4757;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #2c3e50;
+  color: #ffffff;
+}
+
+.prompt button {
+  padding: 12px 25px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #ff4757;
+  border: none;
+  border-radius: 8px;
+}
+
+.prompt button:hover {
+  background-color: #ff6b81;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.info-box {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.info-box div {
+  border: 2px solid #ff4757;
+  padding: 12px;
+  width: 250px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info-image img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #ff4757;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #ffffff;
+}
+
+.incorrect-box {
+  border-color: #f50b0b;
+  background-color: #ffe0e0;
+}
+
+.correct-box {
+  border-color: #12f018;
+  background-color: #e0ffe0;
+}

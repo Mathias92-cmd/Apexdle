@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: 'Arial', sans-serif;
+  background: url('/assets/images/apex4.jpg') no-repeat center center fixed; /* Image de fond d'Apex Legends */
+  background-size: cover;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  filter: blur(8px);
+  z-index: -1;
+}
+
+
+h1, h3 {
+  color: #e63946;
+}
+
+button {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #e63946;
+  border: none;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #d62828;
+}
